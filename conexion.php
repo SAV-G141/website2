@@ -2,11 +2,11 @@
 
 	function conexion(){
 
-	$host = "host=autorack.proxy.rlwy.net";
-	$port = "port=47797";
+	$host = "host=postgres.railway.internal";
+	$port = "port=5432";
 	$dbname = "dbname=railway";
 	$user = "user=postgres";
-	$password = "password=zGRVNQWBKscmTYgOEVyvNOxtvrLOpZOV";
+	$password = "password=TbqErEHCSXEKxHqmiHSImMlSclVVXOQg";
 
 	$db = pg_connect("$host $port $dbname $user $password");
 
